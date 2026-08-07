@@ -35,7 +35,7 @@ updates:
     schedule:
       # Just becasue it is required
       interval: "monthly"
-    ignore:
+    ignore:other Request
       # Ignore updates to staging directory as that is updated on release
       - dependency-name: "*"
     cooldown:
